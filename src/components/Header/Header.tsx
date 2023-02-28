@@ -1,7 +1,6 @@
 import React from "react";
 import style from './Header.module.sass'
 import logo from './../../assets/logo.png'
-import mask from './../../assets/Reusable-Mask.png'
 
 function Header(){
     return(
@@ -39,7 +38,7 @@ function Header(){
                     </div>
                 </div>
                 <div className={style.content__img}>
-                    
+
                 </div>
             </div>
         </div>
