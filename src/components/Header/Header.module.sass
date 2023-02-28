@@ -12,18 +12,83 @@
         justify-content: space-between
         .items
             display: flex
-            gap: 2rem
+            gap: 3rem
             align-items: center   
             a
                 cursor: pointer
                 font-weight: 500
-                font-size: 1.5rem
+                font-size: 1.6rem
                 line-height: 2rem
                 &:hover 
                     color: #006FF9 
         .contact_btn
-            padding: .8rem 1rem
+            padding: .6rem 1rem
             background: #FFFFFF
             border: none
             border-radius: .4rem
-
+    .content
+        height: 80%
+        width: 80%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &__header
+            display: flex
+            flex-direction: column
+            gap: 2rem
+            h4
+                font-weight: 600
+                font-size: 1.4rem
+                line-height: 1.2rem
+                letter-spacing: .2rem
+                text-transform: uppercase
+                color: #006FF9
+            h1
+                width: 49.7rem
+                height: 15.6rem
+                font-weight: 500
+                font-size: 4.4rem
+                line-height: 5.2rem
+                color: #212529    
+            p
+                width: 49.7rem
+                height: 7.5rem
+                font-weight: 400
+                font-size: 1.6rem
+                line-height: 2.5rem
+                color: #6F7074   
+        &__button
+            display: flex
+            gap: 2rem
+            align-items: center
+            &_1
+                width: 14rem
+                height: 4.8rem
+                background: #006FF9
+                border-radius: .4rem
+                font-weight: 400
+                font-size: 1.6rem
+                line-height: 2.4rem
+                border: none
+                color: white
+            &_2     
+                width: 14rem
+                height: 4.8rem
+                color: #006FF9
+                background-color: white
+                border: 1px solid #006FF9
+                border-radius: .4rem
+                font-weight: 400
+                font-size: 1.6rem
+                line-height: 2.4rem
+        &__img
+            left: -20rem
+            position: relative
+            height: 45rem
+            width: 45rem
+            display: flex
+            justify-content: center
+            align-items: center
+            background-color:  #006FF9
+            border-radius: 50%   
+            background-image: url('./../../assets/Reusable-Mask.png')    
