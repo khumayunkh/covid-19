@@ -38,7 +38,6 @@ function Header(){
                     </div>
                 </div>
                 <div className={style.content__img}>
-
                 </div>
             </div>
         </div>
