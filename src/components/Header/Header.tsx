@@ -14,7 +14,7 @@ function Header(){
                     <a>The Secience</a>
                     <a>Shop Bulk</a>
                     <a>Ordering</a>
-                    <a>News</a>
+                    <a>New</a>
                 </div>
                 <button className={style.contact_btn}>Contacts</button>
             </div>
